@@ -10,6 +10,7 @@
     <meta name="geo.region" content="PK">
     <meta name="geo.placename" content="Pakistan">
     <link rel="canonical" href="https://getmineai.net/">
+    <link rel="shortcut icon" href="mineai-logo.png" type="image/x-icon">
     
     <script type="application/ld+json">
     {
@@ -101,6 +102,74 @@
             "name": "MineAI Technology (SMC-Pvt) Limited"
           },
           "alternateName": "getmineai.net"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://getmineai.net/#hero-image",
+          "url": "bilal-mehtab-hero.jpg",
+          "caption": "Bilal Mehtab - AI Engineer and Founder of MineAI Technology",
+          "description": "Professional portrait of Bilal Mehtab, 18-year-old AI engineer and CEO of MineAI Technology (SMC-Private) Limited",
+          "width": 800,
+          "height": 400,
+          "author": {
+            "@type": "Person",
+            "@id": "https://bilal.getmineai.net/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          }
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://getmineai.net/#profile-image",
+          "url": "bilal-mehtab.jpg",
+          "caption": "Bilal Mehtab Profile Portrait",
+          "description": "Professional profile portrait of Bilal Mehtab, AI engineer and technology entrepreneur",
+          "width": 400,
+          "height": 200,
+          "author": {
+            "@type": "Person",
+            "@id": "https://bilal.getmineai.net/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          }
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://getmineai.net/#interface-image",
+          "url": "mineai-interface.jpg",
+          "caption": "Live Production Dashboard Interface",
+          "description": "MineAI live production dashboard showing real-time AI system performance and metrics",
+          "width": 400,
+          "height": 200,
+          "author": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          }
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://getmineai.net/#full-proprietiet-image",
+          "url": "full-proprietiet.jpg",
+          "caption": "Full Proteriet",
+          "description": "Full proprietary system architecture and technology stack overview",
+          "width": 400,
+          "height": 200,
+          "author": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://getmineai.net/"
+          }
         }
       ]
     }
@@ -327,6 +396,150 @@
             font-size: 0.9rem;
         }
 
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill-badge {
+            background-color: var(--bg-void);
+            border: 1px solid var(--accent-cyan);
+            padding: 12px 20px;
+            border-radius: 6px;
+            color: var(--accent-teal);
+            text-align: center;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .skill-badge:hover {
+            box-shadow: 0 0 15px rgba(102, 252, 241, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            background-color: var(--bg-void);
+            border: 1px solid var(--accent-cyan);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            box-shadow: 0 0 20px rgba(102, 252, 241, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-caption {
+            padding: 15px;
+            text-align: center;
+            color: var(--accent-cyan);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .corporate-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .highlight-card {
+            background-color: var(--bg-void);
+            border-left: 4px solid var(--accent-teal);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-card h4 {
+            color: var(--accent-teal);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .highlight-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        .keyword-mention {
+            color: var(--accent-teal);
+            font-weight: 600;
+        }
+
+        .hero-image-container {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .hero-image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 2px solid var(--accent-cyan);
+            box-shadow: 0 0 30px rgba(102, 252, 241, 0.2);
+        }
+
+        .hero-caption {
+            margin-top: 15px;
+            color: var(--accent-cyan);
+            font-size: 1rem;
+            font-style: italic;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, var(--bg-slate) 0%, var(--bg-void) 100%);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .contact-item {
+            background-color: var(--bg-void);
+            border-left: 4px solid var(--accent-teal);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .contact-item h4 {
+            color: var(--accent-teal);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .contact-item a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--accent-teal);
+            text-shadow: 0 0 10px var(--accent-teal);
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
@@ -382,6 +595,9 @@
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#companies">MineAI</a>
+                <a href="#skills">Skills</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
                 <a href="https://getmineai.net" target="_blank">Platform</a>
             </div>
         </div>
@@ -403,16 +619,19 @@
                 </div>
                 <div class="bio-text">
                     <p>
-                        <strong>Bilal Mehtab</strong> is an 18-year-old tech prodigy and visionary technology entrepreneur who is redefining Pakistan's position in the global artificial intelligence landscape. As a proud Pakistani executing operations out of Pakistan, Bilal represents the new generation of engineers who are bridging academic excellence with real-world disruptive innovation.
+                        <strong>Bilal Mehtab</strong> is an 18-year-old technology entrepreneur and advanced AI engineer who holds proud Pakistani citizenship and executes all operations out of Pakistan. His journey represents a new generation of technical leaders emerging from Pakistan's growing technology ecosystem, combining deep technical expertise with strategic business vision at an exceptionally young age.
                     </p>
                     <p>
-                        Currently pursuing a rigorous <strong>Engineering Diploma</strong>, Bilal is simultaneously building cutting-edge AI infrastructure that demonstrates exceptional technical maturity beyond his years. His academic journey in engineering provides the foundational technical knowledge that he seamlessly integrates with advanced software engineering practices to create transformative AI solutions.
+                        Currently pursuing a rigorous <strong>Engineering Diploma</strong>, Bilal is actively bridging academic foundations with disruptive, real-world development. His educational path demonstrates a commitment to understanding engineering principles while simultaneously applying cutting-edge technologies in production environments. This dual focus on theoretical knowledge and practical application positions him uniquely in the technology landscape.
                     </p>
                     <p>
-                        As a <strong>Visionary Tech Entrepreneur, Founder, and Advanced AI Engineer</strong>, Bilal is driven by a mission to establish Pakistan as a leader in native artificial intelligence development. His work focuses on creating custom AI architecture that is specifically designed to address the unique needs and opportunities within the Pakistani technology ecosystem while maintaining global competitiveness.
+                        With extensive experience spanning both AI development and web development industries, Bilal has established himself as a versatile full-stack developer and AI engineer capable of building all types of websites—from high-performance landing hubs to complex, data-intensive applications. His technical proficiency encompasses a sophisticated modern stack that enables rapid development and deployment of scalable solutions.
                     </p>
                     <p>
-                        At just 18 years old, Bilal Mehtab exemplifies how young Pakistani talent can leverage engineering education and technical expertise to build world-class technology solutions. His journey from engineering student to AI innovator showcases the potential of Pakistan's youth to drive technological advancement and establish the country as a significant player in the global AI revolution.
+                        His core technical stack includes <span class="keyword-mention">React</span> for building dynamic user interfaces, <span class="keyword-mention">TypeScript</span> for type-safe application development, and <span class="keyword-mention">Node.js</span> for server-side runtime environments. He leverages <span class="keyword-mention">Convex database schemas</span> for efficient data management, implements <span class="keyword-mention">Nginx reverse-proxies</span> for optimized request handling, utilizes <span class="keyword-mention">Vercel Edge Runtime</span> for global edge deployment, and architects multi-route <span class="keyword-mention">Cloudflare Workers</span> for distributed computing at the network edge.
+                    </p>
+                    <p>
+                        Bilal has articulated a comprehensive 30-year roadmap that demonstrates exceptional strategic thinking for an entrepreneur of his age. His vision clearly outlines major milestones including establishing a physical corporate headquarters to anchor operations, launching a parent organization to manage the broader tech ecosystem, and scaling a dedicated product team larger than 10 people by the time he reaches age 30. This long-term perspective guides current decision-making and investment in sustainable growth strategies.
                     </p>
                 </div>
             </div>
@@ -422,22 +641,116 @@
     <section id="companies" class="companies-section">
         <div class="container">
             <h2>National Innovation: MineAI Technology</h2>
+            
             <div class="company-card">
                 <p>
-                    <strong>MineAI Technology (SMC-Pvt) Limited</strong> stands as Pakistan's first native, national Artificial Intelligence initiative, representing a groundbreaking achievement in the country's technological landscape. As the Founder & Chief Executive Officer, Bilal Mehtab has engineered a corporate entity that is formally recognized for its pioneering contributions to AI development within Pakistan.
+                    <strong>MineAI Technology (SMC-Pvt) Limited</strong> stands as Pakistan's first native, national Artificial Intelligence initiative, representing a significant milestone in the country's technological advancement. Under Bilal Mehtab's leadership as Founder & Chief Executive Officer (CEO), the company has positioned itself at the forefront of artificial intelligence innovation within the Pakistani market and beyond.
                 </p>
                 <p>
-                    <strong>MineAI Technology</strong> specializes in advanced corporate intelligence, featuring a hybrid AI platform architecture that incorporates proprietary multi-model routing engines, custom weights, and highly responsive real-time chat infrastructure supporting complex execution workflows. The technological innovation behind <strong>MineAI</strong> represents a significant leap forward in Pakistan's AI capabilities.
+                    The organization, accessible through the <span class="keyword-mention">MineAI Official Platform Hub</span> at <a href="https://getmineai.net" target="_blank">getmineai.net</a>, operates as the main AI website and platform, with a mission to democratize access to advanced AI technologies while maintaining the highest standards of security and performance. The <span class="keyword-mention">MineAI Live Web Interface</span> at <a href="https://chat.getmineai.net" target="_blank">chat.getmineai.net</a> provides users with direct access to cutting-edge AI capabilities through a real-time Web AI experience.
                 </p>
                 <p>
-                    The <strong>GetMineAI</strong> ecosystem encompasses multiple digital assets designed to provide comprehensive AI solutions. The <a href="https://getmineai.net" target="_blank">MineAI Official Platform Hub</a> serves as the central platform hub for MineAI Technology, providing users with access to the full suite of AI capabilities and corporate intelligence features.
+                    The internal engineering architecture of <span class="keyword-mention">MineAI</span> rests on three fundamental pillars that differentiate it from competitors in the AI space. These innovations reflect deep technical understanding and commitment to solving real-world challenges in AI deployment and usage.
                 </p>
-                <p>
-                    For direct interaction with advanced AI systems, the <a href="https://chat.getmineai.net" target="_blank">MineAI Live Web Interface</a> offers a native, real-time web application interface that enables users to engage in sophisticated AI chat interactions. This production web application demonstrates the technical excellence and innovation that defines <strong>MineAI Technology</strong> as Pakistan's premier AI initiative.
-                </p>
-                <p>
-                    Through <strong>MineAI</strong> and the <strong>GetMineAI Platform</strong>, Bilal Mehtab is establishing a technological foundation that will enable Pakistan to compete globally in the AI sector while developing solutions that are specifically tailored to national needs and opportunities.
-                </p>
+            </div>
+            
+            <div class="corporate-highlights">
+                <div class="highlight-card">
+                    <h4>Multi-Model Routing Engine</h4>
+                    <p>A proprietary routing system optimized for maximum efficiency, intelligently directing requests to the most appropriate AI models based on query complexity, resource availability, and performance requirements.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h4>Multi-Level Security Defense</h4>
+                    <p>An advanced security layer protecting execution workflows through multiple validation stages, ensuring safe and reliable AI operations while maintaining user privacy and data integrity.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h4>Adaptive Retrieval Memory</h4>
+                    <p>A sophisticated memory engine that learns from usage patterns and context, enabling more personalized and efficient AI interactions through intelligent information retrieval and storage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills & Capabilities</h2>
+            
+            <p>
+                Bilal's expertise spans the entire development stack, from frontend user interfaces to backend infrastructure and deployment pipelines. His ability to architect complete solutions enables rapid iteration and comprehensive product development without dependencies on external specialists.
+            </p>
+            
+            <div class="skills-grid">
+                <div class="skill-badge">React</div>
+                <div class="skill-badge">TypeScript</div>
+                <div class="skill-badge">Node.js</div>
+                <div class="skill-badge">Convex</div>
+                <div class="skill-badge">Nginx</div>
+                <div class="skill-badge">Vercel Edge Runtime</div>
+                <div class="skill-badge">Cloudflare Workers</div>
+                <div class="skill-badge">Artificial Intelligence</div>
+                <div class="skill-badge">Large Language Models</div>
+                <div class="skill-badge">Full-Stack Development</div>
+                <div class="skill-badge">Web Development</div>
+                <div class="skill-badge">Systems Engineering</div>
+            </div>
+            
+            <p>
+                Beyond traditional web development, Bilal possesses deep knowledge of AI systems architecture, including model integration, prompt engineering, and the deployment of machine learning solutions in production environments. His work with <span class="keyword-mention">GetMineAI</span> demonstrates practical application of these skills at scale.
+            </p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Execution Gallery & Milestones</h2>
+            <p>
+                A visual timeline documenting key moments in the journey of Bilal Mehtab and the growth of <span class="keyword-mention">MineAI Technology</span>. These images represent the progression from individual developer to corporate leader in Pakistan's AI ecosystem.
+            </p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="bilal-mehtab.jpg" alt="Bilal Mehtab Profile Portrait" loading="lazy">
+                    <div class="gallery-caption">Profile Portrait</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="mineai-interface.jpg" alt="Live Production Dashboard Interface" loading="lazy">
+                    <div class="gallery-caption">Production Dashboard</div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="full-proprietiet.jpg" alt="Full Proteriet" loading="lazy">
+                    <div class="gallery-caption">Full Proteriet</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Personal Contact Information</h2>
+            <p>Direct channels for personal communication and collaboration inquiries.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h4>Discord Servers</h4>
+                    <p><strong>MineAI Technology:</strong> <a href="https://discord.gg/bghXWHtGrv" target="_blank">discord.gg/bghXWHtGrv</a></p>
+                    <p><strong>Personal Discord:</strong> alzoro.it</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>Social Media</h4>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/alzoro.it" target="_blank">alzoro.it</a></p>
+                    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1FK3JuTKgr/" target="_blank">facebook.com/share/1FK3JuTKgr/</a></p>
+                </div>
+                
+                <div class="contact-item">
+                    <h4>Direct Contact</h4>
+                    <p><strong>WhatsApp:</strong> +92 319 7078568</p>
+                    <p><strong>Available for:</strong> Collaboration, Consulting, Technical Inquiries</p>
+                </div>
             </div>
         </div>
     </section>
