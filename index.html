@@ -3,528 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Primary SEO Meta Tags (Scrubbed of Age Metrics) -->
     <title>Bilal Mehtab | AI Systems Engineer & Founder of MineAI Technology</title>
-    <meta name="description" content="Official platform of Bilal Mehtab, AI Systems Engineer and Founder & CEO of MineAI Technology (SMC-Pvt) Limited. Discover production-grade artificial intelligence solutions, machine learning infrastructure, and custom multi-model automation pipelines built for modern enterprise scalability.">
-    <meta name="keywords" content="Bilal Mehtab, MineAI Technology, AI Systems Engineer, Machine Learning, Full-Stack AI Developer, Enterprise Automation, Multi-Model Routing, Pakistan Tech Ecosystem, getmineai.net, chat.getmineai.net">
-    <meta name="author" content="Bilal Mehtab">
+    <meta name="description" content="Official platform of Bilal Mehtab, AI Systems Engineer and Founder & CEO of MineAI Technology (SMC-Pvt) Limited. Discover advanced artificial intelligence, machine learning software, and intelligent corporate automation solutions.">
     
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://getmineai.net">
-    <meta property="og:title" content="Bilal Mehtab | AI Systems Engineer & Founder of MineAI Technology">
-    <meta property="og:description" content="Official portfolio framework of Bilal Mehtab, outlining custom LLM architectures, distributed edge processing architectures, and full-stack enterprise automation systems.">
-    <meta property="og:image" content="bilal-mehtab-hero.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://getmineai.net">
-    <meta property="twitter:title" content="Bilal Mehtab | AI Systems Engineer & Founder of MineAI Technology">
-    <meta property="twitter:description" content="Official portfolio framework of Bilal Mehtab, outlining custom LLM architectures, distributed edge processing architectures, and full-stack enterprise automation systems.">
-    <meta property="twitter:image" content="bilal-mehtab-hero.jpg">
-
-    <!-- Favicon Injection -->
+    <!-- Favicon Links -->
     <link rel="icon" type="image/png" href="mineai-logo.png">
     <link rel="apple-touch-icon" href="mineai-logo.png">
-
-    <!-- Embedded Clean Styling for Production -->
+    
+    <!-- Open Graph Metadata for Social Platforms & Google Cards -->
+    <meta property="og:title" content="Bilal Mehtab | AI Systems Engineer & Founder of MineAI Technology">
+    <meta property="og:description" content="Official platform of Bilal Mehtab, AI Systems Engineer and Founder & CEO of MineAI Technology (SMC-Pvt) Limited.">
+    <meta property="og:image" content="bilal-mehtab.jpg">
+    <meta property="og:type" content="website">
+    
     <style>
         :root {
-            --bg-dark: #0a0a0c;
-            --card-dark: #121216;
-            --accent-blue: #2563eb;
-            --accent-cyan: #06b6d4;
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
+            --bg-color: #0b0f19;
+            --text-color: #f3f4f6;
+            --accent-color: #3b82f6;
+            --card-bg: #111827;
             --border-color: #1f2937;
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
-
-        header {
-            max-width: 1100px;
+        .container {
+            max-width: 1000px;
             margin: 0 auto;
             padding: 40px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--border-color);
         }
-
-        .logo-area {
-            display: flex;
-            align-items: center;
-            gap: 12px;
+        header {
+            text-align: center;
+            margin-bottom: 60px;
         }
-
-        .logo-area img {
-            width: 40px;
-            height: 40px;
-            border-radius: 8px;
+        .logo-container {
+            margin-bottom: 20px;
+        }
+        .logo-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
             object-fit: cover;
         }
-
-        .logo-area span {
-            font-size: 1.25rem;
-            font-weight: 700;
-            letter-spacing: -0.025em;
-            background: linear-gradient(to right, #fff, var(--text-muted));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        nav a {
-            color: var(--text-muted);
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 0.95rem;
-            transition: color 0.2s ease;
-        }
-
-        nav a:hover {
-            color: var(--accent-cyan);
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        .hero {
-            margin-bottom: 80px;
-            max-width: 800px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
             font-weight: 800;
-            letter-spacing: -0.04em;
-            margin-bottom: 10px;
-            background: linear-gradient(to right, #fff, #9ca3af);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.025em;
         }
-
-        .hero h2 {
-            font-size: 1.5rem;
-            font-weight: 500;
-            color: var(--accent-cyan);
-            margin-top: 0;
-            margin-bottom: 25px;
+        .headline {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
         }
-
-        .hero p {
-            font-size: 1.15rem;
-            color: var(--text-muted);
-            margin-bottom: 30px;
-        }
-
         .cta-buttons {
             display: flex;
+            justify-content: center;
             gap: 15px;
             flex-wrap: wrap;
         }
-
         .btn {
-            display: inline-flex;
-            align-items: center;
+            display: inline-block;
             padding: 12px 24px;
-            border-radius: 6px;
+            border-radius: 8px;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.2s ease;
-            font-size: 0.95rem;
         }
-
         .btn-primary {
-            background-color: var(--accent-blue);
-            color: #fff;
+            background-color: var(--accent-color);
+            color: white;
         }
-
         .btn-primary:hover {
-            background-color: #1d4ed8;
-            transform: translateY(-1px);
+            background-color: #2563eb;
         }
-
         .btn-secondary {
-            background-color: transparent;
-            color: var(--text-main);
+            background-color: var(--card-bg);
+            color: var(--text-color);
             border: 1px solid var(--border-color);
         }
-
         .btn-secondary:hover {
-            background-color: rgba(255,255,255,0.05);
-            border-color: var(--text-muted);
+            background-color: #1f2937;
         }
-
         section {
-            margin-bottom: 80px;
+            margin-bottom: 60px;
         }
-
-        section h2 {
+        h2 {
             font-size: 1.75rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 25px;
             font-weight: 700;
-            border-left: 4px solid var(--accent-blue);
-            padding-left: 12px;
-            margin-bottom: 30px;
-            letter-spacing: -0.02em;
         }
-
-        .about-text {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            max-width: 900px;
-        }
-
-        .about-text p {
-            margin-bottom: 20px;
-        }
-
-        .architecture-grid {
+        .grid-3 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
-            margin-top: 30px;
         }
-
-        .arch-card {
-            background-color: var(--card-dark);
+        .card {
+            background-color: var(--card-bg);
             border: 1px solid var(--border-color);
-            padding: 25px;
-            border-radius: 8px;
+            padding: 24px;
+            border-radius: 12px;
         }
-
-        .arch-card h4 {
+        .card h3 {
             margin-top: 0;
-            font-size: 1.2rem;
-            color: #fff;
-            margin-bottom: 12px;
+            font-size: 1.25rem;
+            color: #3b82f6;
         }
-
-        .arch-card p {
-            margin: 0;
-            color: var(--text-muted);
-            font-size: 0.95rem;
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
         }
-
+        .gallery-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .gallery-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-caption {
+            padding: 12px;
+            font-size: 0.875rem;
+            color: #9ca3af;
+            font-weight: 500;
+        }
         .skills-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .skill-group {
-            background-color: rgba(255,255,255,0.02);
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        .skill-group h4 {
-            margin-top: 0;
-            margin-bottom: 15px;
-            color: var(--accent-cyan);
-            font-size: 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .skill-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
         }
-
-        .tag {
-            background-color: var(--card-dark);
-            border: 1px solid var(--border-color);
+        .skill-tag {
+            background-color: #1e293b;
+            color: #38bdf8;
             padding: 6px 14px;
             border-radius: 20px;
-            font-size: 0.9rem;
-            color: var(--text-main);
+            font-size: 0.875rem;
+            font-weight: 600;
+            border: 1px solid #334155;
         }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        .gallery-item {
-            background-color: var(--card-dark);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 240px;
-            object-fit: cover;
-            border-bottom: 1px solid var(--border-color);
-            transition: transform 0.3s ease;
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.02);
-        }
-
-        .gallery-caption {
-            padding: 15px;
-        }
-
-        .gallery-caption h4 {
-            margin-top: 0;
-            margin-bottom: 5px;
-            font-size: 1.05rem;
-            color: #fff;
-        }
-
-        .gallery-caption p {
-            margin: 0;
-            font-size: 0.88rem;
-            color: var(--text-muted);
-        }
-
         .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
         }
-
-        .contact-card {
-            background-color: var(--card-dark);
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            border-radius: 8px;
-        }
-
         .contact-card h4 {
-            margin-top: 0;
-            margin-bottom: 8px;
-            color: #fff;
+            margin: 0 0 5px 0;
+            color: #9ca3af;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
-
-        .contact-card p {
-            margin: 0 0 12px 0;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            word-break: break-all;
-        }
-
-        .contact-card a {
-            color: var(--accent-cyan);
-            text-decoration: none;
-            font-size: 0.9rem;
+        .contact-card p, .contact-card a {
+            margin: 0;
+            color: var(--text-color);
             font-weight: 600;
-        }
-
-        .contact-card a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            border-top: 1px solid var(--border-color);
-            padding: 40px 20px;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        footer a {
-            color: var(--text-main);
             text-decoration: none;
-            margin: 0 10px;
         }
-
-        footer a:hover {
-            color: var(--accent-cyan);
+        .contact-card a:hover {
+            color: var(--accent-color);
         }
-
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2.25rem; }
-            header { flex-direction: column; gap: 20px; text-align: center; }
-            nav a { margin: 0 10px; }
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid var(--border-color);
+            color: #6b7280;
+            font-size: 0.875rem;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <div class="logo-area">
-            <!-- Structured Local Logo Reference to Ensure Precise Favicon Mapping -->
-            <img src="mineai-logo.png" alt="MineAI Technology Official Brand Identity Vector Logo">
-            <span>MineAI Technology</span>
-        </div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#platform">Ecosystem</a>
-            <a href="#skills">Capabilities</a>
-            <a href="#gallery">Execution Timeline</a>
-            <a href="#contact">Network Connection</a>
-        </nav>
-    </header>
-
     <div class="container">
-        
-        <!-- Hero Display System Framework -->
-        <div class="hero">
+        <header>
+            <div class="logo-container">
+                <img src="mineai-logo.png" alt="MineAI Technology Official Brand Identity Symbol" class="logo-img">
+            </div>
             <h1>Bilal Mehtab</h1>
-            <h2>AI Systems Engineer & Founder of MineAI Technology</h2>
-            <p>Architecting low-latency orchestration engines, native machine learning deployment strategies, and robust cloud automation frameworks tailored to clear business scalability requirements.</p>
+            <div class="headline">AI Systems Engineer | Founder & CEO of MineAI Technology</div>
             <div class="cta-buttons">
-                <a href="https://getmineai.net" target="_blank" class="btn btn-primary">Visit Corporate Hub</a>
-                <a href="https://chat.getmineai.net" target="_blank" class="btn btn-secondary">Access Workspace Interface</a>
+                <a href="https://getmineai.net" target="_blank" class="btn btn-primary">MineAI Platform Hub</a>
+                <a href="https://chat.getmineai.net" target="_blank" class="btn btn-secondary">MineAI Web Workspace</a>
             </div>
-        </div>
+        </header>
 
-        <!-- Semantic Narrative Framework (Purged of Temporal Metrics) -->
-        <section id="about">
+        <section id="journey">
             <h2>The Journey of Bilal Mehtab</h2>
-            <div class="about-text">
-                <p><strong>Bilal Mehtab</strong> is an advanced AI Systems Engineer and technology entrepreneur operating at the leading edge of Pakistan's evolving software engineering sector. His professional lifecycle concentrates on translating core algorithmic paradigms into sustainable, production-grade business assets, mixing software design methodologies with clear enterprise execution models.</p>
-                <p>Equipped with broad architecture capabilities spanning cross-functional backend paradigms and global request processing frameworks, Bilal designs high-throughput networking layers capable of maintaining reliable integrity metrics under strenuous enterprise database access profiles.</p>
-                <p>His engineering blueprint focuses heavily on architectural scalability, data validation barriers, and global compute efficiency at the server framework layer. Governed by a dedicated commitment to platform sovereignty, his long-term strategic timeline steers organizational scaling efforts toward assembling high-performance core developer squads, native model fine-tuning arrays, and foundational computing infrastructures.</p>
-            </div>
+            <p>
+                <strong>Bilal Mehtab</strong> is a technology entrepreneur and advanced AI Systems Engineer specializing in the design, training, and deployment of production-ready machine learning infrastructures. Operating primarily out of Pakistan's emerging technology ecosystem, he combines deep low-level technical proficiency with corporate strategic execution to deliver native, high-performance artificial intelligence solutions.
+            </p>
+            <p>
+                With extensive engineering experience spanning full-stack application development and distributed AI scaling, Bilal architects high-throughput infrastructure—ranging from secure real-time web applications to complex, data-heavy machine learning workflows. His architectural methodology focuses heavily on computing efficiency, strict data governance, and rapid deployment of enterprise edge infrastructure.
+            </p>
+            <p>
+                Driven by long-term technological sovereignty, his strategic roadmap guides MineAI Technology toward scaling a global core product engineering team, developing foundational native models, and anchoring robust physical operational hubs.
+            </p>
         </section>
 
-        <!-- National Technology Architecture Infrastructure Summary -->
-        <section id="platform">
+        <section id="innovation">
             <h2>National Innovation: MineAI Technology</h2>
-            <div class="about-text">
-                <p><strong>MineAI Technology (SMC-Pvt) Limited</strong> stands as Pakistan's premier national Artificial Intelligence technology structure. Managed under the technical orchestration of Bilal Mehtab as Founder & Chief Executive Officer (CEO), the corporate workspace specializes in delivering high-volume intelligent processing blocks across localized and expanding global business frameworks.</p>
-                <p>Deploying central operations from the official company access hub at <a href="https://getmineai.net" target="_blank" style="color: var(--accent-cyan); text-decoration: none;">getmineai.net</a> and servicing automated workspaces at <a href="https://chat.getmineai.net" target="_blank" style="color: var(--accent-cyan); text-decoration: none;">chat.getmineai.net</a>, the ecosystem optimizes high-level LLM execution layers, combining maximum workload throughput with unyielding pipeline security parameters.</p>
-            </div>
-
-            <div class="architecture-grid">
-                <div class="arch-card">
-                    <h4>Multi-Model Routing Engine</h4>
-                    <p>Proprietary dynamic routing model designed for resource-optimized token evaluation, mapping input queries directly to task-optimal runtime engines based on workload compute density.</p>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Multi-Model Routing Engine</h3>
+                    <p>A proprietary routing system optimized for maximum efficiency, intelligently directing requests to the most appropriate AI models based on query complexity, resource availability, and performance requirements.</p>
                 </div>
-                <div class="arch-card">
-                    <h4>Multi-Level Security Defense</h4>
-                    <p>Advanced security architecture executing layered encryption, intent sanitization vectors, and strict validation structures across all streaming production channels.</p>
+                <div class="card">
+                    <h3>Multi-Level Security Defense</h3>
+                    <p>An advanced security layer protecting execution workflows through multiple validation stages, ensuring safe and reliable AI operations while maintaining user privacy and data integrity.</p>
                 </div>
-                <div class="arch-card">
-                    <h4>Adaptive Retrieval Memory</h4>
-                    <p>High-efficiency vector RAG memory indexing infrastructure that updates usage pattern weights dynamically to deliver contextual consistency over long operational spans.</p>
+                <div class="card">
+                    <h3>Adaptive Retrieval Memory</h3>
+                    <p>A sophisticated memory engine that learns from usage patterns and context, enabling more personalized and efficient AI interactions through intelligent information retrieval and storage.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Deep Enterprise Technical Capabilities Arrays -->
         <section id="skills">
-            <h2>Technical Skills & Capabilities Matrix</h2>
+            <h2>Technical Skills & Capabilities</h2>
             <div class="skills-container">
-                <div class="skill-group">
-                    <h4>Core Languages & Engineering Frameworks</h4>
-                    <div class="skill-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">TypeScript</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">C++</span>
-                        <span class="tag">React</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <h4>AI Systems Engineering & Modeling</h4>
-                    <div class="skill-tags">
-                        <span class="tag">Large Language Models (LLMs)</span>
-                        <span class="tag">Model Architecture Integration</span>
-                        <span class="tag">Token Optimization Pipelines</span>
-                        <span class="tag">Prompt Engineering Structures</span>
-                        <span class="tag">Vector Embeddings & RAG</span>
-                    </div>
-                </div>
-                <div class="skill-group">
-                    <h4>Data Architecture & Edge MLOps</h4>
-                    <div class="skill-tags">
-                        <span class="tag">Nginx Reverse-Proxies</span>
-                        <span class="tag">Cloudflare Edge Workers</span>
-                        <span class="tag">Vercel Edge Runtime</span>
-                        <span class="tag">Convex Database Schemas</span>
-                        <span class="tag">Distributed Compute Infrastructure</span>
-                    </div>
-                </div>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Large Language Models (LLMs)</span>
+                <span class="skill-tag">Prompt Engineering</span>
+                <span class="skill-tag">Token Optimization</span>
+                <span class="skill-tag">Convex Schemas</span>
+                <span class="skill-tag">Nginx Reverse-Proxies</span>
+                <span class="skill-tag">Cloudflare Edge Workers</span>
+                <span class="skill-tag">Vercel Edge Runtime</span>
+                <span class="skill-tag">Full-Stack Architecture</span>
+                <span class="skill-tag">Systems Engineering</span>
             </div>
         </section>
 
-        <!-- Preserved Visual Milestone Gallery Configuration Map -->
         <section id="gallery">
             <h2>Execution Gallery & Milestones</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <!-- Semantic ALT Attributes to Pivot Google Image Search Away From Age Parameters -->
-                    <img src="bilal-mehtab.jpg" alt="Bilal Mehtab - AI Systems Engineer and Corporate Executive Portrait">
-                    <div class="gallery-caption">
-                        <h4>Executive Profile Portrait</h4>
-                        <p>Bilal Mehtab, Technical Founder & CEO of MineAI Technology.</p>
-                    </div>
+                    <img src="bilal-mehtab.jpg" alt="Bilal Mehtab - AI Systems Engineer and Corporate Executive Portrait" class="gallery-img">
+                    <div class="gallery-caption">Bilal Mehtab Profile Portrait</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="mineai-interface.jpg" alt="MineAI Technology Live Enterprise Production Analytics Web Dashboard Interface">
-                    <div class="gallery-caption">
-                        <h4>Live Production Interface</h4>
-                        <p>Real-time analytics engine and distributed request parsing system terminal.</p>
-                    </div>
+                    <img src="mineai-interface.jpg" alt="MineAI Technology Live Enterprise Production Dashboard Matrix" class="gallery-img">
+                    <div class="gallery-caption">Production Dashboard</div>
                 </div>
                 <div class="gallery-item">
-                    <img src="full-proprietiet.jpg" alt="MineAI Corporate Structural Infrastructure Mapping Document Diagram">
-                    <div class="gallery-caption">
-                        <h4>System Architecture Mapping</h4>
-                        <p>Core algorithmic visualization of the proprietary multi-model routing framework.</p>
-                    </div>
+                    <img src="full-proprietiet.jpg" alt="MineAI Core Architectural Infrastructure Development Schematics" class="gallery-img">
+                    <div class="gallery-caption">Full Proprietary Architecture</div>
                 </div>
             </div>
         </section>
 
-        <!-- Communication & Corporate Network Hub -->
         <section id="contact">
-            <h2>Personal Contact & Engagement Information</h2>
+            <h2>Professional Ecosystem Links & Contact</h2>
             <div class="contact-grid">
-                <div class="contact-card">
-                    <h4>Discord Channels</h4>
-                    <p>Corporate: discord.gg/bghXWHtGrv</p>
-                    <p>Direct: alzoro.it</p>
-                    <a href="https://discord.gg/bghXWHtGrv" target="_blank">Join Cluster</a>
+                <div class="card contact-card">
+                    <h4>Personal LinkedIn</h4>
+                    <p><a href="http://linkedin.com/in/bilal-mehtab" target="_blank">linkedin.com/in/bilalmehtab</a></p>
                 </div>
-                <div class="contact-card">
-                    <h4>Direct Connection</h4>
-                    <p>WhatsApp Network Support</p>
-                    <p>+92 319 7078568</p>
-                    <a href="https://wa.me/923197078568" target="_blank">Initiate Thread</a>
+                <div class="card contact-card">
+                    <h4>Company LinkedIn</h4>
+                    <p><a href="http://linkedin.com/company/mineai" target="_blank">linkedin.com/company/mineai</a></p>
                 </div>
-                <div class="contact-card">
-                    <h4>Social Systems</h4>
-                    <p>Instagram: alzoro.it</p>
-                    <p>Facebook Link Access Established</p>
-                    <a href="https://facebook.com/share/1FK3JuTKgr/" target="_blank">View Ledger</a>
+                <div class="card contact-card">
+                    <h4>X / Twitter</h4>
+                    <p><a href="https://x.com/official_mineai" target="_blank">x.com/bilalmehtab</a></p>
+                </div>
+                <div class="card contact-card">
+                    <h4>YouTube Channel</h4>
+                    <p><a href="https://www.youtube.com/@MineAI_Technology" target="_blank">youtube.com/@MineAI_Technology</a></p>
+                </div>
+                <div class="card contact-card">
+                    <h4>GitHub Profile</h4>
+                    <p><a href="https://github.com/your-profile-placeholder" target="_blank">github.com/bilalmehtab</a></p>
+                </div>
+                <div class="card contact-card">
+                    <h4>Corporate Discord</h4>
+                    <p><a href="https://discord.gg/bghXWHtGrv" target="_blank">discord.gg/bghXWHtGrv</a></p>
+                </div>
+                <div class="card contact-card">
+                    <h4>Personal Discord</h4>
+                    <p><span>alzoro.it</span></p>
+                </div>
+                <div class="card contact-card">
+                    <h4>WhatsApp Hub</h4>
+                    <p><a href="https://wa.me/923197078568" target="_blank">+92 319 7078568</a></p>
                 </div>
             </div>
         </section>
 
+        <footer>
+            <p>&copy; 2026 Bilal Mehtab | MineAI Technology (SMC-Pvt) Limited. All rights reserved.</p>
+        </footer>
     </div>
-
-    <footer>
-        <p>&copy; 2026 Bilal Mehtab | MineAI Technology (SMC-Pvt) Limited. All rights reserved.</p>
-        <p style="margin-top: 10px;">
-            <a href="https://getmineai.net" target="_blank">getmineai.net</a> | 
-            <a href="https://chat.getmineai.net" target="_blank">chat.getmineai.net</a>
-        </p>
-    </footer>
 
 </body>
 </html>
